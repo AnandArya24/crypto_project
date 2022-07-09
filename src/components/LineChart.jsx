@@ -5,6 +5,8 @@ import { Col, Row, Typography } from 'antd';
 
 const { Title } = Typography;
 
+
+
 const LineChart = ({ coinHistory, currentPrice, coinName }) => {
   const coinPrice = [];
   const coinTimestamp = [];
